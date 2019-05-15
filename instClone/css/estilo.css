@@ -1,0 +1,97 @@
+body{
+  background-color: #F2F2F2;
+  font-family: 'Roboto', cursive;
+  text-align: center;
+}
+
+/*Botão, tamanho e cor*/
+a:link, a:visited {
+  background-color: #2A4B7C;
+  color: white;
+  padding: 13px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size:125%;
+  font-family: 'Roboto', cursive;
+  text-align: center;
+}
+
+/*Titulo instaClone*/
+.title{
+  font-family: 'Pristina', cursive;
+  text-align: center;
+  font-size: 70px;
+  margin: 10px auto;
+  margin-bottom: -20px;
+}
+
+/*Primeira parte do cadastro*/
+.principalPainel{
+  width: 500px;
+  height: 535px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/*Segunda parte do painel*/
+.segundoPainel{
+  width: 500px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top:65px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-width: 1px;
+}
+
+input[type=text]{
+    width: 370px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-color: #666666;
+    border-style: solid;
+    border-width: 4px;
+    font-family: 'Roboto', cursive;
+    padding: 10px;
+  }
+
+input[type=password]{
+      width: 370px;
+      margin: 0 auto;
+      margin-top: 10px;
+      background-color: #ffffff;
+      border-color: #666666;
+      border-style: solid;
+      border-width: 4px;
+      font-family: 'Roboto', cursive;
+      padding: 10px;
+    }
+
+input[type=checkbox]{
+      font-family: 'Roboto', cursive;
+      margin-top: 35px;
+      width:20px;
+      height: 15px;
+    }
+
+input[type=submit]{
+      width: 370px;
+      min-height: 50px;
+      margin: 0 auto;
+      margin-top:20px;
+      background-color: #2A4B7C;
+      color:#ffffff;
+      border-color: #d9d9d9;
+      border-style: solid;
+      font-family: 'Roboto', cursive;
+      border-width: 1px;
+      font-size: 150%;
+      text-align: center;
+    }
